@@ -197,10 +197,10 @@ a:hover
     bottom: 0;
     left: 0;
 
-    /* overflow: hidden; */
+    overflow: hidden;
 
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
 
     opacity: 1;
     background: #fff;
@@ -235,7 +235,8 @@ a:hover
 
     opacity: 1;
     border-radius: 100%;
-    background-color: #d80f48;
+    /* background-color: #d80f48; */
+    background-color: #111;
 }
 
 .preloader.hide-preloader .bounce
@@ -477,7 +478,7 @@ a:hover
 
 }
 
-.hero .front-content h1 span
+/* .hero .front-content h1 span
 {
     line-height: 1.4em;
 
@@ -488,7 +489,62 @@ a:hover
     color: #fff;
     border-radius: 100px;
     background: #d80f48;
+} */
+
+/* Front Content animation for different browsers. Course for the animation CSS: https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08 */
+.fade-in {
+    animation: fadeIn ease 7s;
+    -webkit-animation: fadeIn ease 7s;
+    -moz-animation: fadeIn ease 7s;
+    -o-animation: fadeIn ease 7s;
+    -ms-animation: fadeIn ease 7s;
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 
 
