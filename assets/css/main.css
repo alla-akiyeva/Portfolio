@@ -33,7 +33,7 @@ body
     font-weight: 300;
     font-style: normal;
 
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
     color: #111;
     background: #fff;
@@ -197,10 +197,10 @@ a:hover
     bottom: 0;
     left: 0;
 
-    overflow: hidden;
+    /* overflow: hidden; */
 
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 
     opacity: 1;
     background: #fff;
@@ -291,7 +291,7 @@ a:hover
     width: 100%;
 }
 
-.hero .animation-container
+/* .hero .animation-container
 {
     -webkit-transition: .5s ease;
          -o-transition: .5s ease;
@@ -378,12 +378,31 @@ a:hover
             transform: translateX(0);
 
     opacity: 1;
-}
+} */
 
 
 
 /** 4. Hero --> Front Content 
 *******************************************************************/
+
+/* #banner {
+    width: 100%;
+    min-height: 100%;
+    background-color: transparent;
+    background-image: url(/assets/img/milad-moafi-EoUCAeAMt84-unsplash.jpg);
+    background-position: center center, center top;
+    background-repeat: repeat, no-repeat;
+} */
+
+
+
+
+/* body {
+    background: url(/assets/img/milad-moafi-EoUCAeAMt84-unsplash.jpg)
+} */
+
+
+
 
 .hero .front-content
 {
@@ -394,6 +413,7 @@ a:hover
 
     width: 100%;
     height: 100%;
+
 }
 
 .hero .front-content
@@ -402,18 +422,21 @@ a:hover
     left: 0;
 
     width: 100%;
-    margin: 15% 0 15% 0;
-    padding: 0 30px;
+    /* margin: 15% 0 15% 0; */
+    padding: 15% 0 15% 0;
+    /* padding: 0 30px; */
+    background: url(../img/eugenio-pastoral-AziHuNZj8Uc-unsplash.jpg) center no-repeat fixed;
+    background-size: cover;
 
     text-align: center;
 }
 
-.hero .front-content .logo
+/* .hero .front-content .logo
 {
     font-weight: bold;
 
     margin: 0 auto 6rem auto;
-}
+} */
 
 .hero .front-content h1
 {
@@ -422,7 +445,7 @@ a:hover
     margin: 0;
 }
 
-.hero .front-content h1 span
+/* .hero .front-content h1 span
 {
     line-height: 1.4em;
 
@@ -433,7 +456,7 @@ a:hover
     color: #fff;
     border-radius: 100px;
     background: #d80f48;
-}
+} */
 
 
 
@@ -749,7 +772,8 @@ a:hover
 
 .about
 {
-    margin: 15% 0 15% 0;
+    /* margin: 15% 0 15% 0; */
+    padding: 10% 0 10% 0;
     text-align: center;
 }
 
@@ -757,7 +781,6 @@ a:hover
 {
     max-width: 900px;
     margin: 0 auto;
-    min-height: 100%;
 }
 
 .about img
