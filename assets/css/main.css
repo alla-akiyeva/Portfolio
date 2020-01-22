@@ -504,11 +504,11 @@ a:hover
 
 /* Front Content animation for different browsers. Course for the animation CSS: https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08 */
 .fade-in {
-    animation: fadeIn ease 7s;
-    -webkit-animation: fadeIn ease 7s;
-    -moz-animation: fadeIn ease 7s;
-    -o-animation: fadeIn ease 7s;
-    -ms-animation: fadeIn ease 7s;
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
 }
 
 .down {
@@ -586,6 +586,7 @@ i {
 
 .fab, .fas {
     border: none;
+    padding: 20px;
 }
 
 
