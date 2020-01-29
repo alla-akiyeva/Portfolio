@@ -692,7 +692,7 @@ i {
     border-color: transparent #d80247 transparent transparent;
 }
 
-.featherlight .featherlight-content
+/* .featherlight .featherlight-content
 {
     overflow: visible;
 
@@ -700,9 +700,9 @@ i {
     padding: 0;
 
     border-bottom: 0 solid transparent;
-}
+} */
 
-.featherlight .featherlight-close-icon
+/* .featherlight .featherlight-close-icon
 {
     font-size: 2.5rem;
     line-height: 7rem;
@@ -783,7 +783,7 @@ i {
 .featherlight-previous span
 {
     display: none !important;
-}
+} */
 
 @media (max-width:1200px)
 {
