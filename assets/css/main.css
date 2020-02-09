@@ -586,7 +586,8 @@ i {
 
 .fab, .fas {
     border: none;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 8px;
 }
 
 
@@ -952,4 +953,13 @@ i {
     color: #fff;
     border-radius: 100px;
     background: #d80f49;
+}
+
+
+.footer-icons {
+    text-align: center;
+}
+
+.footer .social-icons li {
+    background-color: rgb(80, 154, 240);
 }
