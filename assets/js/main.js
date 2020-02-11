@@ -25,6 +25,30 @@ $(document).ready(function($) {
 		}, 1000);
 	})
 
+	// $(".fa-github.bio-icon").hover(function () {
+	// 	$(this).attr("class", "fab fa-github fa-5x bio-icon");
+	// }, function() {
+	// 	$(this).attr("class", "fab fa-github fa-4x bio-icon");
+	// });
+
+	// $(".fa-linkedin").hover(function () {
+	// 	$(this).attr("class", "fab fa-linkedin fa-5x bio-icon");
+	// }, function () {
+	// 	$(this).attr("class", "fab fa-linkedin fa-4x bio-icon");
+	// });
+
+	// $(".fa-file").hover(function () {
+	// 	$(this).attr("class", "fas fa-file fa-5x bio-icon");
+	// }, function () {
+	// 	$(this).attr("class", "fas fa-file fa-4x bio-icon");
+	// });
+
+	// $(".fa-envelope").hover(function () {
+	// 	$(this).attr("class", "fas fa-envelope fa-5x bio-icon");
+	// }, function () {
+	// 	$(this).attr("class", "fas fa-envelope fa-4x bio-icon")
+	// });
+
 
 	// $(".front-content").on('wheel', function() {
 	

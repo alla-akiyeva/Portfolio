@@ -592,6 +592,8 @@ i {
 
 
 
+
+
 /** 5. Portfolio
 *******************************************************************/
 
@@ -887,6 +889,31 @@ i {
     background: #111;
 }
 
+#bio-buttons {
+    height: 92px;
+    vertical-align: middle;
+    /* display: inline; */
+}
+
+.bio-icon, .bio-icon {
+    border: none;
+    padding: 10px;
+    margin: 2%;
+    /* color: #FF6075; */
+    color: #DC143C;
+    /* width: 61px;
+    height: 70px;
+    top: 10%; */
+    /* line-height: 70px; */
+    /* color: #0077b5; */
+}
+
+.bio-icon:hover {
+    color: black;
+}
+
+
+
 .footer .social-icons li a
 {
     font-size: inherit;
@@ -961,5 +988,11 @@ i {
 }
 
 .footer .social-icons li {
-    background-color: rgb(80, 154, 240);
+    /* background-color: rgb(80, 154, 240); */
+    /* -- Pink -- */
+    /* background-color: #FF6075;                 
+    /* -- Crimson -- */
+    background-color: #DC143C;                    
+    /* -- Linkedin Blue -- */
+    /* background-color: #0077b5; */
 }
